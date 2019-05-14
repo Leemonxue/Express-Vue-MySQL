@@ -13,6 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-build-decoupled-document": "^12.1.0",
     "axios": "^0.18.0",
     "element-ui": "^2.7.2",
     "reset-css": "^4.0.1",

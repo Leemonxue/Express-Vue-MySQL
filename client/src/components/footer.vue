@@ -24,8 +24,8 @@ a:hover{
 </style>
 <style scoped>
 #footer-wapper{
-    width: 100%;
-    height: 300px;
+    height: auto;
+    padding: 20px;
     border-top: 2px red solid;
     background-color: #1b252e;
     list-style: none;
@@ -33,7 +33,7 @@ a:hover{
 }
 #footer-connection{
     width: 800px;
-    margin: 85px auto 30px;
+    margin: 20px auto 30px;
     font-weight: 600;
     font-size: 14px;
     display: table;
@@ -51,7 +51,7 @@ a:hover{
 }
 #footer-info{
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 30px;
 }
 </style>

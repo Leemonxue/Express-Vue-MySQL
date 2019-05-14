@@ -7,6 +7,7 @@ import Layout from '@/pages/layout'
 import Main1 from '@/homepages/main1'
 import Main2 from '@/homepages/main2'
 import Main3 from '@/homepages/main3'
+import insertArticle from '@/homepages/insertArticle'
 
 Vue.use(Router)
 
@@ -50,6 +51,14 @@ var router = new Router({
                         requireAuth: true,
                     },
                 },
+                {
+                    path: 'main/insertArticle',
+                    name: 'insertArticle',
+                    component: insertArticle,
+                    meta: {
+                        requireAuth: true,
+                    },
+                }
             ]
         }
     ]
